@@ -1,0 +1,49 @@
+# Site settings
+title: Nguyen Viet Dung
+name: Nguyen Viet Dung
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/frank-nguyen-vd
+ - title: LinkedIn
+   url: https://www.linkedin.com/in/frank-nguyen-vd/
+
+#Any buzzword skills you want to include
+skills:
+ - Node.js
+ - Back-end Web Development
+ - LoopBack
+ - Python
+ - C
+ - TypeScript
+
+#Blogfeed is optional - including this will add JS to call the feed and populate blog list
+blogfeed: 
+
+#Work experience is required
+roles:
+ - title: Software Engineer
+   start: 2020
+   end: Ongoing
+   employer: Hope Technik
+   description: <a href="https://www.hopetechnik.com/">
+ - title: Firmware Engineer
+   start: 2019
+   end: 2020
+   employer: Thermo Fisher Scientific
+   description: <a href="https://https://www.thermofisher.com/sg/en/home.html">
+
+#Education is required
+education:
+ - level: Bachelor of Engineering (B.Sc.)
+   date: 2020
+   subject: Electrical Electronic Engineering
+   school: Nanyang Technological Univeristy
+
+intro: |
+  Frank Nguyen has an broad understanding of electronic circuit design, embedded system design and machine learning concepts. During his tenure in the power electronics company, XP Power Ltd, he participated in designing AC-DC adapters using Flyback and LLC topologies and wrote firmware on PIC12F617 to handle housekeeping functions like protection functions and fan control. In his firmware engineer role in the life science technology company, Thermo Fisher Scientific, he innovated the standard 9-stage PID control model for thermal cycler application to produce a leaner and better performance algorithm that has 45% less code and 50% less tuning parameters. He created a simulation of the PCR instrument using machine learning technique, and developed an auto-tuning program using Genetic Algorithm that runs in simulation environment  to determine the best set of tuning parameters. Besides, he refactored and expanded features for the software thermal profiler which is a window application written in C# using .NET Framework. With his growing multidisciplinary knowledge and skills, he decided to take on challenges in AI & Robotics field and joined Hope Technik as a software engineer. He envisioned Robotic Operating System would evolve and become popular not only in rapid prototyping applications but also in mainstream manufacturing.
